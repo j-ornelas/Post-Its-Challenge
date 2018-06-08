@@ -1,1 +1,100 @@
+body {
+  background-color: whitesmoke;
+  margin: 0;
+}
 
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: navy;
+  height: 75px;
+}
+.add-note-btn {
+  height:60px;
+  width: 75px;
+  margin-right: 15px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card {
+  display: inline;
+  background-color: white;
+  flex-direction: row;
+  flex-grow: 1;
+  width: 300px;
+  padding: 5, 10, 10, 5;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px grey;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 350px;
+}
+
+.card-tag {
+  display: block;
+  height: 6px;
+  display: flex;
+  flex-direction: row;
+}
+
+.section {
+  flex: none;
+}
+
+.card-title {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.title {
+  font-weight: bold;
+  background-color: red;
+}
+
+.buttons {
+  background-color: blue;
+}
+
+.card-body {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+
+.red {
+  border-radius: 5px;
+  background: #ff6961;
+}
+
+.green {
+  border-radius: 5px;
+  background-color: #77fd9f;
+}
+
+.blue {
+  border-radius: 5px;
+  background-color: #aec6cf;
+}
+
+.orange {
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 5px;
+  background-color: #fdfd96;
+}
