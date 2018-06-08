@@ -3,7 +3,7 @@ var SRC_DIR = path.join(__dirname, '/client/src');
 var PUB_DIR = path.join(__dirname, '/client/public');
 
 module.exports = {
-  entry: `${SRC_DIR}/index.jsx`,
+  entry: `${SRC_DIR}/index.js`,
   output: {
     filename: 'bundle.js',
     path: PUB_DIR
