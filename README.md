@@ -1,2 +1,2 @@
-# App Name
-Web Application description!
+# Post-It Note Application
+Simple browser-based to-do application, given as a timed coding challenge
